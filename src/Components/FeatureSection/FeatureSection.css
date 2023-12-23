@@ -1,0 +1,38 @@
+.feature-section {
+    padding: 60px 0;
+}
+.feature-section .container .section-border {
+    margin: -50px -90px;
+    padding: 80px 80px;
+    border: 1px solid rgba(25, 25, 25, 0.1);
+}
+.feature-section .container .section-border .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}
+.feature-section .container .section-border .feature-grid .feature-learnmore {
+    margin-right: 30%;
+}
+.feature-section .container .section-border .feature-grid .feature-learnmore h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.feature-section .container .section-border .feature-grid .feature-learnmore a {
+    display: flex;
+}
+.feature-section .container .section-border .feature-grid .feature-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.feature-section .container .section-border .feature-grid .feature-boxes .feature-box i {
+    font-size: 2Spx;
+    margin-bottom: 20px;
+}
+.feature-section .container .section-border .feature-grid .feature-boxes .feature-box h4 {
+    font-size: 22px;
+    font-weight: 700;
+}

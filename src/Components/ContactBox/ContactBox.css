@@ -1,0 +1,44 @@
+.contactbox-section .container {
+    color: black;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+}
+.contactbox-section .container .infobox {
+    flex: 1;
+    border: 1px solid rgba(25, 25, 25, 0.1);
+    padding: 40px 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "icon title" "icon info";
+}
+.contactbox-section .container .infobox .black-circle {
+    grid-area: icon;
+    border-radius: 50%;
+    background-color : #191919;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+.contactbox-section .container .infobox p {
+    margin: 0;
+}
+.contactbox-section .container .infobox a {
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contactform-section {
+    padding:0px 0 0 0;
+}
+.contactform-section .container {
+    color: black;
+    background-color: #f0efe9;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+}

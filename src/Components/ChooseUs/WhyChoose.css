@@ -1,0 +1,64 @@
+.chooseus-section {
+    position: relative;
+    z-index: 0;
+    padding: 60px 0 0 0;
+}
+.chooseus-section .container {
+    display: flex;
+    justify-content: space-between;
+}
+.chooseus-section .container .section-title {
+    margin-bottom: 15px;
+}
+.chooseus-section .container h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.chooseus-section .container .content-column {
+    flex: 1;
+}
+.chooseus-section .container .content-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.chooseus-section .container .content-column ul li {
+margin-top: 40px;
+display: grid;
+grid-template-areas: "img title" "img text";
+}
+.chooseus-section .container .content-column ul li i {
+    font-size: 1.5em;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: img;
+}
+.chooseus-section .container .content-column ul li h5 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    grid-area: title;
+}
+.chooseus-section .container .content-column ul li p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    grid-area: text;
+}
+.chooseus-section .container .image-column {
+    flex: 2;
+    text-align: right;
+}
+.chooseus-section .container .image-column img {
+    width: 645px;
+    height: 505px;
+    -o-object-fit: contain;
+        object-fit : contain;
+}

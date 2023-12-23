@@ -1,0 +1,34 @@
+.pagetitle-section {
+    padding: 60px 0 60px 0;
+    background-color: rgb(240, 239, 232);
+}
+.pagetitle-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagetitle-section .container .breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+.pagetitle-section .container .breadcrumb a:hover {
+    text-decoration: underline;
+}
+.pagetitle-section .container .breadcrumb span {
+    margin-left: 20px;
+    font-weight: 700;
+}
+.pagetitle-section .container h2 {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.background-lines {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:-1;
+  }

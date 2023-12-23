@@ -1,0 +1,73 @@
+.about-section {
+padding: 60px 0;
+}  
+.about-section .container {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.about-section .container .image-column {
+    position: relative;
+}
+.about-section .container .image-column img {
+    margin-left: 60px;
+    width: 500px;
+    height: 615px;
+    -o-object-fit: cover;
+        object-fit:cover;
+}
+.about-section .container .image-column .image-quote {
+    box-shadow: -1px 0 5px 1px rgba(0, 0, 0, 0.1);
+    Width: 368px;
+    position: absolute;
+    bottom: 30px;
+    background-color: #BEEBFF;
+    padding: 20px 50px 20px 20px;
+}
+.about-section .container .image-column .image-quote h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+.about-section .container .image-column .image-quote h4 span {
+    color: #F94D1C;
+    font-size: 16px;
+}
+.about-section .container .image-column .image-quote p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about-section .container .content-column {
+    margin-right: 20%;
+}
+.about-section .container .content-column h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.about-section .container .content-column p {
+    margin-bottom: 40px;
+}
+.about-section .container .content-column a {
+    display: flex;
+}
+
+.about-section .container .content-column .about-links {
+    display: flex;
+}
+.about-section .container .content-column .about-links a {
+    margin-right: 20px;
+}
+
+.intro-span {
+    display: flex;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.intro-span:hover {
+    color: transparent;
+    cursor: pointer;
+}

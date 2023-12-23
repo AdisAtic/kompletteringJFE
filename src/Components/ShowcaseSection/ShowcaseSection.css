@@ -1,0 +1,36 @@
+.showcase-section {
+    background-color: rgb(240, 239, 232);
+}
+.showcase-section .container {
+    display: flex;
+    align-items: center;
+}
+.showcase-section .container .content-column {
+    flex: 1;
+} 
+.showcase-section .container .content-column h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+}
+.showcase-section .container .content-column p { 
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+} 
+.showcase-section .container .content-column .button-links {
+    display: flex;
+}
+.showcase-section .container .content-column .button-links a {
+    margin-right: 20px;
+
+}
+.showcase-section .container .image-column {
+    flex: 1;
+}
+.showcase-section .container .image-column img {
+    position: relative;
+    left: 70px;
+}
+
+    

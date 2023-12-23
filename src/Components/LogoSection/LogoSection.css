@@ -1,0 +1,9 @@
+.brand-section {
+    padding: 60px 0;
+}
+
+.brand-section .container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}

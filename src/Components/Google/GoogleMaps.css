@@ -1,0 +1,8 @@
+.googlemaps-section {
+    padding:80px 0 0 0;
+    }
+.googlemaps-section .googlemaps {
+    max-width: fit-content;
+    height: 620;
+    border: none;
+}
