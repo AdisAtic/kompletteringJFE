@@ -30,7 +30,7 @@ const NavSection = () => {
                     <a href="/news">News</a>
                     <a href="/contacts">Contact</a>
                 </div>
-                    <Buttons type="yellow" title="Login" url="/login"/>
+                    <Buttons type="yellow" title="Login" url="login"/>
                 </div>
             </nav>
         </div>

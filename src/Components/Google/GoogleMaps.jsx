@@ -6,7 +6,7 @@ import googleMaps from '../../assets/images/googlemaps.png'
 const GoogleMaps = () => {
   return (
     <div className="googlemaps-section">
-      <img src={googleMaps} />
+      <img src={googleMaps} alt="Google Maps" />
     </div>
   )
 }
